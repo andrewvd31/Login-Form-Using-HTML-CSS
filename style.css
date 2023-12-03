@@ -2,38 +2,111 @@
 1. rgb(155,155,255)
 2. rgb(68,68,189) */
 
-*{margin: 0;padding: 0;box-sizing: border-box;}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-body{background-image: linear-gradient(rgb(155, 155, 255), rgb(68, 68, 189));font-family: 'Montserrat';min-height: 100vh;}
+body {
+  background-image: linear-gradient(rgb(155, 155, 255), rgb(68, 68, 189));
+  font-family: "Montserrat";
+  min-height: 100vh;
+}
 
-.main-container{position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);width: 800px;background-color: #fff;border-radius: 20px;height: 500px;box-shadow: 0 20px 30px rgba(48, 48, 48, 0.526)}
+.main-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  background-color: #fff;
+  border-radius: 20px;
+  height: 500px;
+  box-shadow: 0 20px 30px rgba(48, 48, 48, 0.526);
+}
 
-a{color: rgb(155, 155, 255)}
+a {
+  color: rgb(155, 155, 255);
+}
 
 /*imp! LEFT CONTAINER */
 
-.left-container .new-user{font-weight: 600;}
+.left-container .new-user {
+  font-weight: 600;
+}
 
-.left-container,.right-img-container {width: 50%;}
+.left-container,
+.right-img-container {
+  width: 50%;
+}
 
-.left-container h2{margin: 20px 0;font-size: 30px;}
+.left-container h2 {
+  margin: 20px 0;
+  font-size: 30px;
+}
 
-.left-container{float: left;position: relative;top: 30px;left: 40px;}
+.left-container {
+  float: left;
+  position: relative;
+  top: 30px;
+  left: 40px;
+}
 
-.left-container .input_label{font-size: 20px;font-weight: 500;}
+.left-container .input_label {
+  font-size: 20px;
+  font-weight: 500;
+}
 
-.left-container .input-box{display: inline-block;margin-top: 10px;margin-bottom: 20px;border: 1px solid black;padding: 10px 0;width: 75%;border-radius: 40px;}
+.left-container .input-box {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  padding: 10px 0 10px 20px;
+  width: 75%;
+  border-radius: 40px;
+  font-size: 18px;
+}
 
-.left-container input[type="checkbox"]{padding: 40px !important;vertical-align: middle;}
+.left-container input[type="checkbox"] {
+  padding: 40px !important;
+  vertical-align: middle;
+}
 
-.left-container .input_label_checkbox{font-size: 15px;font-weight: 600;line-height: 25px;}
+.left-container .input_label_checkbox {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+}
 
-.left-container .input_label_checkbox a{font-weight: 600;}
+.left-container .input_label_checkbox a {
+  font-weight: 600;
+}
 
-.left-container button{padding: 12px 40px;width: 75%;border: 0;outline: 0;background-color: rgb(68, 68, 189);color: #fff;border-radius: 40px;margin-top: 20px;font-size: 20px;cursor: pointer;font-weight: 600;}
+.left-container button {
+  padding: 12px 40px;
+  width: 75%;
+  border: 0;
+  outline: 0;
+  background-color: rgb(68, 68, 189);
+  color: #fff;
+  border-radius: 40px;
+  margin-top: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
 
 /*imp! RIGHT CONTAINER */
 
-.right-img-container{float: right;}
+.right-img-container {
+  float: right;
+}
 
-.right-img-container img{width: 100%;margin-top: 40px;position: relative;right: 30px;}
+.right-img-container img {
+  width: 100%;
+  margin-top: 40px;
+  position: relative;
+  right: 30px;
+}
